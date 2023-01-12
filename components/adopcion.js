@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
 import PetsIcon from '@mui/icons-material/Pets';
 import style from "../styles/slider.module.css";
-import { Stack  } from "@mui/material";
+import {  Stack  } from "@mui/material";
 
 
 export default function adopcion() {
@@ -17,13 +17,13 @@ export default function adopcion() {
         <div className={style.d}>
             <Stack>
                 
-            <Typography sx={{ marginBottom: 3 }} variant="subtitle1" color="primary">TÚ BUSCAS A UN PELUDITO</Typography>
-           <Typography variant="h4" color="secondary">🐾EN PATITAS TENEMOS A MUCHOS BUACANDO HOGAR🐾 </Typography>
+          
+           <Typography variant="h4" color="secondary">EN PATITAS TENEMOS A MUCHOS BUACANDO HOGAR </Typography>
                
                 <Typography variant="body1" color="initial">Nos alegra saber que estas pensando en adoptar, todos nuestros peludos están a la espera de una familia y son entregados en óptimas condiciones de salud y belleza a adoptantes responsables y amorosos. En esta página conocerás nuestro proceso de adopción y requisitos, pero lo primero es conocer al peludo que deseas adoptar, si ya tienes su nombre sigue leyendo nuestras condiciones, de lo contrario puedes conocer todos nuestro peluditos en los siguientes links</Typography>
                  <Stack justifyContent="center"
   alignItems="center" >
-                <Button variant="contained" color="secondary" sx={{ marginTop: 4, marginBottom: 4 }} startIcon={<PetsIcon />} >
+                <Button variant="contained" color="secondary" sx={{ marginTop: 3, marginBottom: 3 }} startIcon={<PetsIcon />} >
                     adopta a un peludito
                 </Button>
                 <div className={style.con}>
@@ -42,6 +42,7 @@ export default function adopcion() {
         <div className={style.i}>
             <p>.</p>
         </div>
+
        </Stack>
         </Box>
     )

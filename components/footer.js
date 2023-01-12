@@ -27,17 +27,18 @@ export default function Footer() {
            
          
       
-<Stack  direction="row">
     <footer className={styled.foot}>
             <Typography variant="body1" color="secondary"> © 2023 Patitas. Todos los derechos reservados. | hecho por Heidy gisell vaneas roa.</Typography>
+<Stack  direction="row"  spacing={{ xs: 1, sm: 2, md: 4 }}  justifyContent="center"
+  alignItems="center">
             <IconButton aria-label="GitHubIcon">
             <GitHubIcon color='secondary'/>
             </IconButton>
             <IconButton aria-label="LinkedInIcon" color='secondary'>
             <LinkedInIcon />
             </IconButton>
-            </footer>
            </Stack>
+            </footer>
         </Box>
     )
 }

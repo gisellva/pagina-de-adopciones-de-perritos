@@ -61,3 +61,14 @@ background-position: center;
 background-size: cover;
 background-image: url("https://img.freepik.com/foto-gratis/mujer-tiro-medio-abrazando-perros_23-2148928958.jpg?w=2000") ;
 }
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .i {
+      width:0px;
+      height: 0px;
+      
+    }
+    .vid{
+        width:0px;
+      height: 0px;
+    }
+  }
