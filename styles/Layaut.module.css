@@ -1,0 +1,11 @@
+.conatiner{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+.hv{
+  height: 100vh;
+  background-image: url("https://img.freepik.com/fotos-premium/disparo-cabeza-perro-pastor-australiano-red-merle-vista-lateral_191971-28402.jpg?w=2000g");
+  background-size: cover;
+  
+}
