@@ -1,0 +1,16 @@
+.card{
+    display: grid;
+    gap: 4px;
+    grid-auto-rows: 18rem;
+    grid-template-columns: repeat(auto-fill, minmax(12rem , 1fr));
+}
+.boton{
+    background-color: #6d4c41;
+    border: #6d4c41;
+    width: 150px;
+    height: 30px;
+    border-radius: 6%;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    color: #ffab00;
+}

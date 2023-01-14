@@ -16,3 +16,13 @@
     height: 150px;
   }
 }
+.prueba{
+  background-color: #5a3c1e;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

@@ -1,0 +1,19 @@
+.box{
+    background-color: #ffab00;
+    
+}
+.link{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: large;
+    color: #ffab00;
+}
+.boton{
+    background-color: #6d4c41;
+    border: #6d4c41;
+    width: 150px;
+    height: 50px;
+    border-radius: 6%;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}

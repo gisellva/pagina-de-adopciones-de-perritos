@@ -13,12 +13,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url(https://previews.123rf.com/images/nalinn/nalinn1504/nalinn150401333/38908448-impresiones-de-la-pata-del-perro-sin-patr%C3%B3n-con-huellas-de-patas-de-color-marr%C3%B3n.jpg);
+  background-size: cover;
 }
 h3 {
   font-size: 5em;
