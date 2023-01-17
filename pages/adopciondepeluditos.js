@@ -1,7 +1,7 @@
 
 
 export async function getServerSideProps() {
-const url="https://rickandmortyapi.com/api/character/1,2"
+const url="https://pagina-empresa-recreaciones.vercel.app/api/hello"
  const res=await fetch(url)
  const data =await res.json()
  console.log(data)
@@ -14,13 +14,11 @@ const url="https://rickandmortyapi.com/api/character/1,2"
 
 
 export default function MiPagina({ data }) {
-   console.log(data[0].name) 
+   console.log(data) 
   return(
     <div>
    
-     <div>
-        {data.map(dat => <p key={dat.id}>{data[0].name} </p>)}
-     </div>
+   <p >{data[2].nombre} </p>
     </div>
     
   );
