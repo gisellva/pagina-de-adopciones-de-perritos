@@ -1,6 +1,6 @@
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 const url="http://localhost:3000/api/hello"
  const res=await fetch(url)
  const data =await res.json()
