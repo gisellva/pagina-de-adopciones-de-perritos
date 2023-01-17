@@ -4,7 +4,6 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import styled from "../styles/card.module.css";
 import Typography from '@mui/material/Typography';
 import { Stack, Button } from "@mui/material";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
