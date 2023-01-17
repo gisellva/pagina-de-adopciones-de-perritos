@@ -4,9 +4,3 @@ export async function perritos (){
 
     return perr;
 }
-
-export async function nuevosperritos (){
-    const resperr =await perritos()
-    const nuevos = resperr.slice(0 ,3)
-    return nuevos;
-}
