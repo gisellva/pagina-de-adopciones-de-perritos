@@ -8,6 +8,8 @@ import Typography from '@mui/material/Typography';
 import { Stack, Button } from "@mui/material";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { amber, blue, brown } from "@mui/material/colors";
+import styled from "../styles/slider.module.css";
+
 const theme = createTheme({
   palette: {
     primary: {
@@ -22,17 +24,8 @@ const theme = createTheme({
   },
 });
 
-export default function CardAdopcion({per,showAS}) {
-    if (showAS === "page") {
-        return(
-            <div>page</div>
-        )
-    }
-    if (showAS === "Listparritos") {
-        return(
-            <div>page</div>
-        )
-    }
+export default function CardAdopcion({per}) {
+ 
 return(
   <ThemeProvider theme={theme}>
     <Stack 
@@ -66,7 +59,7 @@ return(
      alignItems="center">
       <CardActions  >
       <Button variant="contained" color="secondary" >
-       adoptar
+       <Link className={styled.s} href="/formulario">adoptar</Link>
      </Button>
       </CardActions>
       </Stack>

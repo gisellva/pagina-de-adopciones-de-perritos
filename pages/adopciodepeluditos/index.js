@@ -1,11 +1,14 @@
 import { Box, Typography } from "@mui/material";
-import CardAdopcion from "../components/cardadopcion";
-import styled from "../styles/card.module.css"
-export async function getServerSideProps() {
+import CardAdopcion from "../../components/cardadopcion";
+import styled from "../../styles/card.module.css"
+
+
+
+export async function getStaticProps() {
 const url="https://pagina-empresa-recreaciones.vercel.app/api/hello"
  const res=await fetch(url)
  const data =await res.json()
- console.log(data)
+ 
   return {
     props: {
       data,
@@ -15,7 +18,7 @@ const url="https://pagina-empresa-recreaciones.vercel.app/api/hello"
 
 
 export default function MiPagina({ data }) {
-   console.log(data) 
+   
   return(
     <div>
         <Box sx={{margin:4}}>

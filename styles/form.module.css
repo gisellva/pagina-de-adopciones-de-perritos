@@ -1,0 +1,52 @@
+.formg{
+    background-color:#ffab00;
+    margin:auto;
+    width: 100%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(1,0,0/30%) ;
+    text-align: center;
+   
+}
+.formcontainer{
+    margin-top: 1em;
+    display: grid;
+    gap: 3em;
+}
+.formgrup{
+    position: relative;
+    
+}
+.imput{
+    width: 100%;
+    background: none;
+    color: #4e342e;
+    font-size:1rem ;
+    padding: 25px .1em;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #4e342e ;
+}
+.imput:focus + .formlabel{
+   transform: translateY(-12px) scale(0.9);
+   transform-origin: left top;
+   color: #ffab00;
+}
+.formlabel{
+    color: #4e342e;
+    cursor: pointer;
+    position:absolute;
+    top: 30;
+    left: 3px;
+    transform: translateY(60);
+    transition:transform 01s ,color .1s ;
+}
+.formsumnit{
+   background-color: #4e342e;
+   border: none;
+   color: #ffab00;
+  height: 2.5rem;
+    border-radius: 10px;
+    font-size: large;
+}

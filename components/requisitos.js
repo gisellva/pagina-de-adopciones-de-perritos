@@ -48,7 +48,7 @@ export default function Requisitos() {
         className={styled.boton}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }} >
-        <Link className={styled.link} href="/adopciondepeluditos">Adota un peludito</Link>
+        <Link className={styled.link} href="/adopciodepeluditos">Adota un peludito</Link>
         </motion.button>
         </Stack>
        
