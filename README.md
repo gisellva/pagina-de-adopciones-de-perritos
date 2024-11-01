@@ -11,7 +11,7 @@ npm run dev
 # o
 yarn dev
 Abre http://localhost:3000 en tu navegador para ver la aplicación.
-
+```
 Puedes comenzar a editar la página modificando el archivo pages/index.js. La página se actualizará automáticamente a medida que realices cambios.
 
 Rutas API
